@@ -1,0 +1,4 @@
+{
+  "crons": [{ "path": "/api/sync", "schedule": "30 1 * * *" }],
+  "functions": { "api/sync.ts": { "maxDuration": 300 } }
+}
